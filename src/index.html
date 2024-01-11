@@ -2,19 +2,22 @@
 <html lang="zh-Hant-TW">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="icon" href="/favicon.ico"/>
+    <link rel="icon" href="planet.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>webstart template (vite5 + tailwind3 + scss + ejs)</title>
+    <title>RESUME</title>
     <link rel="stylesheet" href="scss/main.scss">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline text">
-        Hello world!
-      </h1>
-      <a href="index2.html">fff</a>
-    <%for(var i=0;i<3;i++){%>
-      <%-include("include/partial")%>
-    <%}%>
-    
+<body class="bg-[#030406]">
+  <header>
+    <div class="w-full h-[45px] bg-[#2c2d3f]">
+      <div class="w-full h-auto">
+        <ul class="flex w-full h-[45px] justify-center items-center text-[#fff]">
+          <li class="mx-10 px-5 text-[20px] font-bold tracking-widest cursor-pointer hover:shadow-sm hover:shadow-[#00fffb] hover:bg-[#000]">關於我</li>
+          <li class="mx-10 px-5 text-[20px] font-bold tracking-widest cursor-pointer hover:shadow-sm hover:shadow-[#00fffb] hover:bg-[#000]">工作經驗</li>
+          <li class="mx-10 px-5 text-[20px] font-bold tracking-widest cursor-pointer hover:shadow-sm hover:shadow-[#00fffb] hover:bg-[#000]">未來目標</li>
+        </ul>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
